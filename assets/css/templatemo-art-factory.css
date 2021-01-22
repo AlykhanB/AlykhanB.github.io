@@ -315,11 +315,15 @@ Hero Section
   margin-bottom: 60px;
 }
 
+.hero-section .animated-gif {
+  padding: 0px 20px;
+}
+
 
 @media (max-width: 991px) {
   .hero-section .hero-text {
     top: 55% !important;
-    transform: perspective(1px) translateY(-60%) !important;
+    transform: perspective(1px) translateY(-100%) !important;
   }
   .hero-section .hero-text h1 {
     font-size: 17 px;
@@ -344,7 +348,7 @@ Hero Section
   }
   .hero-section .hero-text {
     top: 55% !important;
-    transform: perspective(1px) translateY(-60%) !important;
+    transform: perspective(1px) translateY(-100%) !important;
   }
   .hero-section .hero-text h1 {
     font-size: 36px;
@@ -365,13 +369,13 @@ Hero Section
   }
   .hero-section .hero-text {
     top: 55% !important;
-    transform: perspective(1px) translateY(-50%) !important;
+    transform: perspective(1px) translateY(-100%) !important;
     text-align: center;
   }
   .hero-section .herotext .buttons {
     display: none;
   }
-  .hero-section .hero-text h1 {
+  .hero-section h1 {
     font-weight: 600;
     font-size: 24px !important;
     line-height: 30px !important;
@@ -487,23 +491,6 @@ about
 #about .left-text p {
   margin-bottom: 40px;
 }
-/*
-#about .flex-container {
-  display: flex;
-}
-
-#about .flex-container > div{
-  flex: 50%;
-  margin: 10px;
-  text-align: center;
-  align-self: center;
-}
-
-@media (max-width: 765px) {
-  #about .flex-container{
-    display: flex;
-  }
-}*/
 
 #about2 {
   padding: 120px 0px;
