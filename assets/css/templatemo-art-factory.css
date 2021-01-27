@@ -340,6 +340,9 @@ Hero Section
     top: 50px;
     margin-bottom: 30px;
   }
+  .hero-section .animated-gif {
+    width: 80%;
+  }
 }
 
 @media (max-width: 820px) {
@@ -358,6 +361,9 @@ Hero Section
   }
   .hero-section .hero-text p {
     margin-bottom: 30px;
+  }
+  .hero-section .animated-gif {
+    width: 80%;
   }
 }
 
@@ -395,6 +401,9 @@ Hero Section
     width: 80%;
     margin-top: 20px;
   }
+  .hero-section .animated-gif {
+    width: 80%;
+  }
 }
 
 @media (max-width: 478px){
@@ -403,10 +412,14 @@ Hero Section
     margin-bottom: 50px;
     padding-top: 80px;
   }
+
   .welcome-area .hero-text img {
     width: 80%;
     margin-top: 20px;
-  }  
+  }
+  .hero-section .animated-gif {
+    width: 80%;
+  }
 }
 
 .arrow arrow-first body {
