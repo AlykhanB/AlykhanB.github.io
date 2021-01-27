@@ -314,11 +314,11 @@ Hero Section
   color: #fff;
   margin-bottom: 60px;
 }
-/*
+
 .hero-section .animated-gif {
   padding: 0px 20px;
 }
-*/
+
 
 @media (max-width: 991px) {
   /*.hero-section .hero-text {
@@ -342,6 +342,7 @@ Hero Section
   }
   .hero-section .animated-gif {
     width: 80%;
+    padding: 0px 20px;
   }
 }
 
@@ -365,6 +366,7 @@ Hero Section
   }
   .hero-section .animated-gif {
     width: 80%;
+    padding: 0px 20px;
   }
 }
 
@@ -405,6 +407,7 @@ Hero Section
   }
   .hero-section .animated-gif {
     width: 80%;
+    padding: 0px 20px;
   }
 }
 
@@ -425,6 +428,7 @@ Hero Section
   }
   .hero-section .animated-gif {
     width: 80%;
+    padding: 0px 20px;
   }
 }
 
