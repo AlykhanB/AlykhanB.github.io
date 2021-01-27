@@ -366,6 +366,7 @@ Hero Section
     flex-direction: column;
     margin-bottom: 100px;
   }
+  
   .hero-section .hero-text {
     /*top: 55% !important;
     transform: perspective(1px) translateY(-100%) !important;*/
@@ -394,6 +395,17 @@ Hero Section
     width: 80%;
     margin-top: 20px;
   }
+}
+
+@media (max-width: 478px){
+  #welcome {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .welcome-area .hero-text img {
+    width: 80%;
+    margin-top: 20px;
+  }  
 }
 
 .arrow arrow-first body {
