@@ -314,11 +314,11 @@ Hero Section
   color: #fff;
   margin-bottom: 60px;
 }
-
+/*
 .hero-section .animated-gif {
   padding: 0px 20px;
 }
-
+*/
 
 @media (max-width: 991px) {
   /*.hero-section .hero-text {
